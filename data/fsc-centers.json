@@ -1,0 +1,648 @@
+{
+  "metadata": {
+    "title": "2025-2026 Family Support Center Directory",
+    "countiesServed": 54,
+    "futureFields": [
+      "residentVolume",
+      "countyWebsite",
+      "additionalLinks"
+    ]
+  },
+  "centers": [
+    {
+      "county": "Barbour",
+      "name": "Barbour County FSC",
+      "address": [
+        "122 Crim Ave",
+        "Belington, WV 26250"
+      ],
+      "phone": "304-606-8087",
+      "director": "Cathy Coontz-Griffith & Lisa Wotring",
+      "email": "tccfrn1@gmail.com"
+    },
+    {
+      "county": "Berkeley",
+      "name": "Berkeley County FSC",
+      "address": [
+        "100 South Queen Street",
+        "Martinsburg, WV 25401"
+      ],
+      "phone": "304-264-4658",
+      "director": "Jenna Orsini",
+      "email": "jorsini@childhswv.org"
+    },
+    {
+      "county": "Boone",
+      "name": "Boone County FSC",
+      "address": [
+        "137 Peach Court, Suite 2",
+        "Danville, WV 25053"
+      ],
+      "phone": "304-833-2104",
+      "director": "Jacqueline Clevenger",
+      "email": "crystale.farmer@strongcommunites.org"
+    },
+    {
+      "county": "Braxton",
+      "name": "Braxton County FSC",
+      "address": [
+        "83 North Elk Street",
+        "Gassaway, WV 26624"
+      ],
+      "phone": "304-364-7121",
+      "director": "April Lloyd",
+      "email": "alloyd@mountaincapwv.org"
+    },
+    {
+      "county": "Brooke",
+      "name": "Brooke County FSC",
+      "address": [
+        "1447 Main Street (2nd Floor)",
+        "Wellsburg, WV 26070"
+      ],
+      "phone": "304-748-7850 ext. 1001 or 1004",
+      "director": "Brittany Kuhn",
+      "email": "brittany.kuhn@bhfrn.org"
+    },
+    {
+      "county": "Cabell",
+      "name": "Cabell County FSC / CHS",
+      "address": [
+        "203 6th Avenue",
+        "Huntington, WV 25701"
+      ],
+      "phone": "681-378-2530",
+      "director": "Belinda Chapman",
+      "email": "bchapman@childhswv.org"
+    },
+    {
+      "county": "Cabell",
+      "name": "Cabell County FSC / HHA",
+      "address": [
+        "816 St Louis Avenue",
+        "Huntington, WV 25722"
+      ],
+      "phone": "304-526-4471",
+      "director": "Jessie Gadd",
+      "email": "jgadd@HWVHA.ORG"
+    },
+    {
+      "county": "Calhoun",
+      "name": "Calhoun County FSC",
+      "address": [
+        "364 Main Street",
+        "Grantsville, WV 26147"
+      ],
+      "phone": "304-354-7177",
+      "director": "Tina Persinger",
+      "email": "Calhounfrn@gmail.com"
+    },
+    {
+      "county": "Clay",
+      "name": "Clay County FSC",
+      "address": [
+        "214 Main Street",
+        "Clay, WV"
+      ],
+      "phone": "304-587-4389",
+      "director": "Donna Salisbury",
+      "email": "clayfamilyrs@gmail.com"
+    },
+    {
+      "county": "Doddridge",
+      "name": "Doddridge County FSC",
+      "address": [
+        "258 Main Street West",
+        "Union, WV 26456"
+      ],
+      "phone": "304-873-3500",
+      "director": "Kristen Richards",
+      "email": "dcstartingpts@gmail.com"
+    },
+    {
+      "county": "Fayette",
+      "name": "Fayette County FSC",
+      "address": [
+        "108 Walnut Street",
+        "Gauley Bridge WV 25085"
+      ],
+      "phone": "304-442-0043",
+      "director": "Kelly Gladwell",
+      "email": "klgladwell@frontier.com"
+    },
+    {
+      "county": "Gilmer",
+      "name": "Gilmer County FSC",
+      "address": [
+        "206 E Main Street",
+        "Glenville, WV 26351"
+      ],
+      "phone": "304-266-4302 / 304-266-2374",
+      "director": "Brittani Kosan",
+      "email": "gilmercountyfsc@gmail.com"
+    },
+    {
+      "county": "Grant",
+      "name": "Grant County FSC",
+      "address": [
+        "101 Alt Avenue",
+        "Petersburg, WV 26847"
+      ],
+      "phone": "304-944-6304",
+      "director": "Kelly Mowery",
+      "email": "klmowery@easternation.org"
+    },
+    {
+      "county": "Greenbrier",
+      "name": "Greenbrier County FSC",
+      "address": [
+        "305 Elmwood Avenue",
+        "Alderson, WV 24910"
+      ],
+      "phone": "304-920-0601",
+      "director": "Lesley Toliver",
+      "email": "fscgreenbrierljt@gmail.com"
+    },
+    {
+      "county": "Hampshire",
+      "name": "Hampshire County FSC",
+      "address": [
+        "24986 Northwestern Pike",
+        "Romney, WV 26757"
+      ],
+      "phone": "304-538-7711",
+      "director": "Tanya Hornagold",
+      "email": "tahornagold@easternaction.org"
+    },
+    {
+      "county": "Hancock",
+      "name": "Hancock County FSC",
+      "address": [
+        "600 Indiana Avenue",
+        "Chester, WV 26034"
+      ],
+      "phone": "304-748-7850 Ext 1014",
+      "director": "Hannah Hebrock",
+      "email": "Hannah.Hebrock@bhfrn.org"
+    },
+    {
+      "county": "Hardy",
+      "name": "Hardy County FSC",
+      "address": [
+        "108 South Fork Road, Suite 202",
+        "Moorefield, WV 26836"
+      ],
+      "phone": "304-538-7711",
+      "director": "Shari Stephens",
+      "email": "smstephens@easternaction.org"
+    },
+    {
+      "county": "Harrison",
+      "name": "Harrison County FSC",
+      "address": [
+        "110 North 6th Street",
+        "Clarksburg, WV 26301"
+      ],
+      "phone": "304-801-3321",
+      "director": "Hannah Dodson",
+      "email": "upwardfsc@lewiscountyfrn.org"
+    },
+    {
+      "county": "Jefferson",
+      "name": "Jefferson County FSC",
+      "address": [
+        "114 East Third Ave",
+        "Ranson, WV 25438"
+      ],
+      "phone": "304-707-3141",
+      "director": "Toni Gue",
+      "email": "ague@childswv.org"
+    },
+    {
+      "county": "Kanawha",
+      "name": "Kanawha County FSC / NCE",
+      "address": [
+        "5118 Cabin Creek Road",
+        "Miami, WV 25134"
+      ],
+      "phone": "304-595-3323",
+      "director": "Jana Cooper",
+      "email": "ukvfscdirector@gmail.com"
+    },
+    {
+      "county": "Kanawha",
+      "name": "Kanawha County FSC / SxS",
+      "address": [
+        "1401 4th Ave",
+        "Charleston WV 25302"
+      ],
+      "phone": "304-414-4453",
+      "director": "James Walton",
+      "email": "jwalton@stepbystepwv.org"
+    },
+    {
+      "county": "Lewis",
+      "name": "Lewis County FSC",
+      "address": [
+        "240 Court Avenue",
+        "Weston, WV 26452"
+      ],
+      "phone": "304-269-4000",
+      "director": "Lesley Slaughter",
+      "email": "lesley@lewiscountyfrn.org"
+    },
+    {
+      "county": "Lincoln",
+      "name": "Lincoln County FSC",
+      "address": [
+        "Big Ugly Community Center",
+        "15 Rosewood Road",
+        "Harts, WV 25524"
+      ],
+      "phone": "304-855-5402",
+      "director": "Tami Boling",
+      "email": "tboling@stepbystepwv.org"
+    },
+    {
+      "county": "Logan",
+      "name": "Logan County FSC",
+      "address": [
+        "218 Dingess Street",
+        "Logan, WV 25601"
+      ],
+      "phone": "681-280-4177",
+      "director": "Angela Copley",
+      "email": "acopley@stepbystepwv.org"
+    },
+    {
+      "county": "Marion",
+      "name": "Marion County FSC",
+      "address": [
+        "200 Fairmont Avenue, Suite 106",
+        "Fairmont, WV 26554"
+      ],
+      "phone": "304-366-4445",
+      "director": "Jan Smith",
+      "email": "jan@marioncountyfrn.com"
+    },
+    {
+      "county": "Marshall",
+      "name": "Marshall County FSC",
+      "address": [
+        "1501 Second Street",
+        "Moundsville, WV 26401"
+      ],
+      "phone": "304-845-3300",
+      "director": "Traci Kinney",
+      "email": "mcfrn@comcast.net"
+    },
+    {
+      "county": "Mason",
+      "name": "Mason County FSC",
+      "address": [
+        "615 Viand Street (GPS)",
+        "624 Main Street (911 Address)",
+        "Point Pleasant, WV 25550"
+      ],
+      "phone": "304-812-5102",
+      "director": "Jassica Legg",
+      "email": "Jleggfsc@gmail.com"
+    },
+    {
+      "county": "McDowell",
+      "name": "McDowell County FSC",
+      "address": [
+        "17586 Rocket Boys Drive",
+        "Caretta, WV 24892"
+      ],
+      "phone": "304-875-3418",
+      "director": "Dyanne Spriggs",
+      "email": "bcpia3418@netscape.net"
+    },
+    {
+      "county": "Mercer",
+      "name": "Mercer County FSC",
+      "address": [
+        "169 Shaker Lane",
+        "Princeton, WV 24740"
+      ],
+      "phone": "304-425-2710",
+      "director": "Tonya Milam",
+      "email": "tonya@mercerchildprotect.com"
+    },
+    {
+      "county": "Mineral",
+      "name": "Mineral County FSC",
+      "address": [
+        "251 ½ W. Piedmont Street",
+        "Keyser, WV 26726"
+      ],
+      "phone": "304-790-6250",
+      "director": "Jessica Moreland",
+      "email": "jan@marioncountyfrn.com"
+    },
+    {
+      "county": "Mingo",
+      "name": "Mingo County FSC",
+      "address": [
+        "1350 Armory Road",
+        "Williamson, WV 25661"
+      ],
+      "phone": "304-236-3652",
+      "director": "Cody Justice & Iris Chaffin",
+      "email": "mingofscpa@gmail.com"
+    },
+    {
+      "county": "Monongalia",
+      "name": "Monongalia County FSC",
+      "address": [
+        "537 Blue Horizon Drive",
+        "Morgantown, WV 26546"
+      ],
+      "phone": "304-599-5466",
+      "director": "Lori Halverson & Jessica Varner",
+      "email": "tessandi@comcast.net / director@the-shack.org"
+    },
+    {
+      "county": "Monroe",
+      "name": "Monroe County FSC",
+      "address": [
+        "130 North Street",
+        "Union, WV 26983"
+      ],
+      "phone": "304-772-4987",
+      "director": "Nikki Thomas",
+      "email": "nikkithomas@monroecountycoalition.org"
+    },
+    {
+      "county": "Morgan",
+      "name": "Morgan County FSC",
+      "address": [
+        "106 Sand Mine Road, Suite 106",
+        "Berkeley Springs, WV 25411"
+      ],
+      "phone": "304-258-5600",
+      "director": "Audrey Morris",
+      "email": "amorris@starting-points.org"
+    },
+    {
+      "county": "Nicholas",
+      "name": "Nicholas County FSC",
+      "address": [
+        "44 East Main Street",
+        "Richwood, WV 26261"
+      ],
+      "phone": "304-846-4479",
+      "director": "Marla Short",
+      "email": "ncecstartingpoints@gmail.com"
+    },
+    {
+      "county": "Ohio",
+      "name": "Ohio County FSC",
+      "address": [
+        "141 Key Avenue, Cottage A",
+        "Wheeling, WV 26003"
+      ],
+      "phone": "304-905-0205",
+      "director": "Chad Wingrove",
+      "email": "chad@ocfrn.com"
+    },
+    {
+      "county": "Pendleton",
+      "name": "Pendleton County FSC",
+      "address": [
+        "22 North Main Street",
+        "Franklin, WV 26807"
+      ],
+      "phone": "304-538-7711",
+      "director": "Edna Mullenax",
+      "email": "emmullenax@easternaction.org"
+    },
+    {
+      "county": "Pleasants",
+      "name": "Pleasants County FSC",
+      "address": [
+        "301 Washington Street",
+        "Saint Marys, WV 26170"
+      ],
+      "phone": "681-612-3185",
+      "director": "Susan Carter",
+      "email": "scarter@tccfwv.org"
+    },
+    {
+      "county": "Pocahontas",
+      "name": "Pocahontas County FSC",
+      "address": [
+        "614 2nd Avenue",
+        "Marlinton, WV 24954"
+      ],
+      "phone": "304-799-6847",
+      "director": "Rebecca Campbell",
+      "email": "pocahontasfoec@hotmail.com"
+    },
+    {
+      "county": "Preston",
+      "name": "Preston County FSC",
+      "address": [
+        "105 West High Street",
+        "Kingwood, WV 26537"
+      ],
+      "phone": "304-329-1968",
+      "director": "Tracy Shannon",
+      "email": "tmshannon70@LIVE.com"
+    },
+    {
+      "county": "Putnam",
+      "name": "Putnam County FSC",
+      "address": [
+        "10822 Winfield Road",
+        "Winfield, WV 25213"
+      ],
+      "phone": "304-936-1048",
+      "director": "Steve Legg & Amber Nunn",
+      "email": "sputnamfsc@gmail.com"
+    },
+    {
+      "county": "Raleigh",
+      "name": "Raleigh County FSC",
+      "address": [
+        "1340 Ritter Drive",
+        "Daniels, WV 25832"
+      ],
+      "phone": "304-253-1100",
+      "director": "Jennifer McMeekin",
+      "email": "Jennifer.McMeekin@strongcommunities.org"
+    },
+    {
+      "county": "Randolph",
+      "name": "Randolph County FSC",
+      "address": [
+        "2285 Beverly Pike",
+        "Elkins, WV 26241"
+      ],
+      "phone": "304-591-4052",
+      "director": "Rosa Scarangello",
+      "email": "rosascarangello@youth-health.org"
+    },
+    {
+      "county": "Ritchie",
+      "name": "Ritchie County FSC",
+      "address": [
+        "888 East Main Street",
+        "Harrisville, WV 26362"
+      ],
+      "phone": "304-643-2022",
+      "director": "Crystal Byrd",
+      "email": "cbyrdrcfsc@gmail.com"
+    },
+    {
+      "county": "Roane",
+      "name": "Roane County FSC",
+      "address": [
+        "201 Main Street",
+        "Spencer, WV 25276"
+      ],
+      "phone": "304-519-2144",
+      "director": "Christina Jarvis",
+      "email": "christina@roanefsc.org"
+    },
+    {
+      "county": "Summers",
+      "name": "Summers County FSC",
+      "address": [
+        "411 Temple Street",
+        "Hinton, WV 25951"
+      ],
+      "phone": "304-466-2226",
+      "director": "Nikki Gill",
+      "email": "elizabeth.gill@reachhfrc.org"
+    },
+    {
+      "county": "Taylor",
+      "name": "Taylor County FSC",
+      "address": [
+        "105 Beech Street",
+        "Grafton WV 26354"
+      ],
+      "phone": "304-265-6838",
+      "director": "Lisa Wotring & Cathy Coontz-Griffith",
+      "email": "lisahwotring@gmail.com"
+    },
+    {
+      "county": "Tucker",
+      "name": "Tucker County FSC",
+      "address": [
+        "100 Education Lane",
+        "Parsons, WV 26287"
+      ],
+      "phone": "304-478-3827",
+      "director": "Sandra Mason",
+      "email": "tuckerfamilyresources@gmail.com"
+    },
+    {
+      "county": "Tyler",
+      "name": "Tyler County FSC",
+      "address": [
+        "250 Charles Street",
+        "Sistersville, WV 26175"
+      ],
+      "phone": "304-652-4070",
+      "director": "Christina Wilkinson",
+      "email": "cwilkinson@tccfwv.org"
+    },
+    {
+      "county": "Upshur",
+      "name": "Upshur County FSC",
+      "address": [
+        "30 East Main Street",
+        "Buckhannon, WV 26201"
+      ],
+      "phone": "304-878-1115",
+      "director": "Lisa VanNostrand",
+      "email": "Lvannostrand@mountaincapwv.org"
+    },
+    {
+      "county": "Wayne",
+      "name": "Wayne County FSC",
+      "address": [
+        "44289 Rt. 52",
+        "Crum, WV 25669"
+      ],
+      "phone": "304-393-3886",
+      "director": "Lisa Salmons",
+      "email": "lisasalmons@hotmail.com"
+    },
+    {
+      "county": "Webster",
+      "name": "Webster County FSC",
+      "address": [
+        "25 Mill Street",
+        "Cowen, WV 26206"
+      ],
+      "phone": "304-226-5000",
+      "director": "Sharlet Jarvis",
+      "email": "wcstartingpoints@hotmail.com"
+    },
+    {
+      "county": "Wetzel",
+      "name": "Wetzel County FSC",
+      "address": [
+        "128 Main Street",
+        "New Martinsville, WV 26155"
+      ],
+      "phone": "304-455-2468",
+      "director": "Megan Kinsey",
+      "email": "mkinsey@tccfwv.org"
+    },
+    {
+      "county": "Wirt",
+      "name": "Wirt County FSC",
+      "address": [
+        "116 Harriot Street",
+        "Elizabeth, WV 26143"
+      ],
+      "phone": "304-275-4833",
+      "director": "Kathy Mason-Dunbar",
+      "email": "wirtcountyfrn@frontier.com"
+    },
+    {
+      "county": "Wood",
+      "name": "Wood County FSC",
+      "address": [
+        "2500 36th Street",
+        "Parkersburg, WV 26104"
+      ],
+      "phone": "304-485-0650 ext 5014",
+      "director": "Lisa Weaver",
+      "email": "Lweaver@childhswv.org"
+    },
+    {
+      "county": "Wyoming",
+      "name": "Wyoming County FSC",
+      "address": [
+        "19 Bank Street",
+        "Pineville, WV 24874"
+      ],
+      "phone": "304-202-0201 / 304-923-9933",
+      "director": "Liz Cochrane",
+      "email": "lcochrane.38@gmail.com"
+    }
+  ],
+  "specialCenters": [
+    {
+      "name": "West Liberty FSC",
+      "address": [
+        "840 Van Meter Way",
+        "West Liberty, WV 26074"
+      ],
+      "phone": "304-336-3035",
+      "director": "Wendy Robinson",
+      "email": "Gwenspat1@gmail.com",
+      "serviceCounties": [
+        "Ohio",
+        "Brooke"
+      ],
+      "note": "The source map labels West Liberty as serving rural Ohio and Brooke."
+    }
+  ]
+}

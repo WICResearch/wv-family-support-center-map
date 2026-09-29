@@ -1,0 +1,86 @@
+:root{
+  /* WIC-inspired palette */
+  --wic-teal:#00657f;
+  --wic-teal-dark:#004d61;
+  --wic-aqua:#00cfa6;
+  --wic-green:#006b4f;
+  --wic-magenta:#d0006f;
+  --wic-orange:#ffae00;
+  --wic-blue:#00a9ce;
+  --wic-yellow:#ffd24d;
+  --ink:#17323d;
+  --muted:#60747c;
+  --paper:#ffffff;
+  --soft:#f3f8f9;
+  --line:#d9e6e9;
+  --shadow:0 14px 36px rgba(0,65,82,.10);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"Nunito",Arial,sans-serif;color:var(--ink);background:linear-gradient(180deg,#fff 0,#f8fbfc 100%)}
+.site-header{border-top:8px solid var(--wic-magenta);background:#fff;box-shadow:0 4px 22px rgba(0,0,0,.06)}
+.header-inner{max-width:1280px;margin:auto;padding:26px 28px;display:flex;gap:34px;align-items:center}
+.agency-logo{width:min(430px,38vw);height:auto;object-fit:contain}
+.header-copy{border-left:1px solid var(--line);padding-left:34px}
+.eyebrow{display:block;color:var(--wic-magenta);font-weight:900;text-transform:uppercase;letter-spacing:.12em;font-size:.78rem}
+h1{font-size:clamp(2rem,4vw,3.5rem);line-height:1.02;margin:.3rem 0 .55rem;color:var(--wic-teal)}
+h2{font-size:clamp(1.6rem,2.5vw,2.25rem);margin:.2rem 0;color:var(--wic-teal)}
+h3{color:var(--wic-teal);margin:.25rem 0 .55rem}
+p{line-height:1.55}
+main{max-width:1280px;margin:auto;padding:34px 28px 60px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:34px}
+.stat-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.stat-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px;background:var(--wic-aqua)}
+.stat-card:nth-child(2):before{background:var(--wic-blue)}
+.stat-card:nth-child(3):before{background:var(--wic-orange)}
+.stat-card:nth-child(4):before{background:var(--wic-magenta)}
+.stat-card span{display:block;font-size:2.4rem;font-weight:900;color:var(--wic-teal)}
+.stat-card p{margin:.15rem 0 0;font-weight:800;color:var(--muted)}
+.explorer,.directory-section{background:#fff;border:1px solid var(--line);border-radius:26px;padding:26px;box-shadow:var(--shadow);margin-bottom:28px}
+.section-heading{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:20px}
+.search-wrap{width:min(420px,100%)}
+.search-wrap label{display:block;font-weight:800;font-size:.85rem;margin-bottom:6px;color:var(--wic-teal)}
+input[type=search]{width:100%;border:2px solid var(--line);border-radius:14px;padding:13px 15px;font:inherit;outline:none;background:#fbfdfe}
+input[type=search]:focus{border-color:var(--wic-blue);box-shadow:0 0 0 4px rgba(0,169,206,.12)}
+.map-layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(300px,.75fr);gap:20px}
+.map-card,.county-panel{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:var(--soft)}
+#map{height:560px;background:#edf6f7}
+.leaflet-container{font-family:"Nunito",Arial,sans-serif}
+.leaflet-tooltip{font-weight:800;border:0;box-shadow:0 6px 18px rgba(0,0,0,.14)}
+.legend{display:flex;flex-wrap:wrap;gap:18px;padding:14px 16px;background:#fff;border-top:1px solid var(--line);font-size:.86rem;font-weight:800}
+.swatch{display:inline-block;width:14px;height:14px;border-radius:4px;margin-right:5px;vertical-align:-2px;border:1px solid rgba(0,0,0,.12)}
+.swatch.one{background:var(--wic-aqua)} .swatch.multi{background:var(--wic-orange)} .swatch.none{background:#e8edef}
+.map-source{font-size:.72rem;color:var(--muted);background:#fff;margin:0;padding:0 16px 12px}
+.county-panel{padding:22px;background:#fff;max-height:640px;overflow:auto}
+.empty-state{text-align:center;padding:70px 18px}
+.map-pin{width:72px;height:72px;border-radius:22px;margin:0 auto 18px;display:grid;place-items:center;background:var(--wic-teal);color:#fff;font-weight:900;font-size:1.3rem;transform:rotate(-4deg)}
+.county-badge{display:inline-flex;padding:6px 10px;border-radius:999px;background:rgba(0,207,166,.12);color:var(--wic-green);font-weight:900;font-size:.78rem}
+.center-card{border-top:1px solid var(--line);padding:17px 0}
+.center-card:first-of-type{margin-top:12px}
+.center-name{font-weight:900;color:var(--wic-teal);font-size:1.05rem}
+.detail{margin:7px 0;color:#405861}
+.detail strong{color:var(--ink)}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.action-link{display:inline-block;text-decoration:none;padding:8px 11px;border-radius:10px;background:var(--wic-teal);color:#fff;font-weight:800;font-size:.82rem}
+.action-link.secondary{background:#eef6f8;color:var(--wic-teal)}
+.special-note{border-radius:14px;padding:12px;background:#fff7dd;border:1px solid #ffe4a0;font-size:.84rem}
+.directory-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.directory-card{border:1px solid var(--line);border-radius:17px;padding:17px;background:#fff;transition:.18s ease;cursor:pointer}
+.directory-card:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,65,82,.10);border-color:#afd8e0}
+.directory-card .county-label{font-size:.72rem;color:var(--wic-magenta);font-weight:900;text-transform:uppercase;letter-spacing:.08em}
+.directory-card h3{font-size:1rem;margin:.3rem 0}
+.directory-card p{font-size:.85rem;margin:.2rem 0;color:var(--muted)}
+.text-button{border:0;background:transparent;color:var(--wic-magenta);font:inherit;font-weight:900;cursor:pointer}
+.no-results{text-align:center;padding:30px;color:var(--muted)}
+footer{background:var(--wic-teal-dark);color:#fff;text-align:center;padding:26px}
+footer p{margin:.2rem}.future-note{opacity:.72;font-size:.82rem}
+@media(max-width:900px){
+  .header-inner{display:block}.agency-logo{width:min(460px,100%)}.header-copy{border-left:0;border-top:1px solid var(--line);padding:22px 0 0;margin-top:20px}
+  .stats{grid-template-columns:repeat(2,1fr)}.map-layout{grid-template-columns:1fr}.directory-grid{grid-template-columns:repeat(2,1fr)}
+  #map{height:470px}.county-panel{max-height:none}.section-heading{align-items:stretch;flex-direction:column}
+}
+@media(max-width:580px){
+  main{padding:22px 14px 45px}.header-inner{padding:20px 16px}.stats{grid-template-columns:1fr 1fr;gap:10px}
+  .stat-card{padding:16px}.stat-card span{font-size:1.8rem}.stat-card p{font-size:.78rem}
+  .explorer,.directory-section{padding:16px;border-radius:20px}.directory-grid{grid-template-columns:1fr}#map{height:390px}
+}
