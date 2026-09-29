@@ -3,8 +3,7 @@ const DATA_URL = "data/fsc-centers.json";
 // Official WV public GIS county boundary service. We request GeoJSON directly,
 // so no street-level geocoding or map API key is required.
 const COUNTY_GEOJSON_URL =
-  "https://services.wvgis.wvu.edu/ArcGIS/rest/services/Boundaries/WV_Election_Reference/MapServer/2/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=geojson";
-
+https://services.wvgis.wvu.edu/arcgis/rest/services/Boundaries/wv_political_boundary/MapServer/0/query?where=1%3D1&outFields=County_Name_Modified%2CCounty_Name&returnGeometry=true&outSR=4326&f=geojson
 let appData;
 let map;
 let countyLayer;
