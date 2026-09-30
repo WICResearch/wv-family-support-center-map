@@ -184,8 +184,6 @@ function updateStats() {
     appData.centers.length + appData.specialCenters.length;
   document.getElementById("multiCount").textContent =
     Object.values(counts).filter(n => n > 1).length;
-  document.getElementById("unservedCount").textContent =
-    55 - appData.metadata.countiesServed;
 }
 
 async function initMap() {
