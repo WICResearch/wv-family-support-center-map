@@ -3,77 +3,333 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Interactive directory of West Virginia Family Support Centers.">
+
+  <meta
+    name="description"
+    content="Find Family Support Centers and family resources across all 55 West Virginia counties."
+  >
+
   <title>West Virginia Family Support Centers</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  >
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 <header class="site-header">
+
+  <div class="header-accent"></div>
+
   <div class="header-inner">
-    <img src="assets/wv-doh-logo.jpg" alt="West Virginia Department of Health" class="agency-logo">
-    <div class="header-copy">
-      <span class="eyebrow">2025–2026 Interactive Directory</span>
-      <h1>West Virginia Family Support Centers</h1>
-      <p>Explore Family Support Center coverage and contact information by county.</p>
+
+    <div class="brand-area">
+      <img
+        src="assets/wv-doh-logo.jpg"
+        alt="West Virginia Department of Health"
+        class="agency-logo"
+      >
     </div>
+
+    <div class="header-copy">
+
+      <span class="eyebrow">West Virginia Family Resources</span>
+
+      <h1>Find Support Near You</h1>
+
+      <p class="hero-subtitle">
+        Connect with Family Support Centers serving families
+        across all 55 West Virginia counties.
+      </p>
+
+      <div class="hero-actions">
+
+        <a href="#explore" class="primary-button">
+          Explore the Map
+        </a>
+
+        <a href="#directory" class="secondary-button">
+          Browse All Centers
+        </a>
+
+      </div>
+
+    </div>
+
   </div>
+
 </header>
 
+
 <main>
- <section class="stats" aria-label="Directory summary">
-  <article class="stat-card"><span id="servedCount">55</span><p>Counties Served</p></article>
-  <article class="stat-card"><span id="locationCount">—</span><p>Directory Locations</p></article>
-  <article class="stat-card"><span id="multiCount">—</span><p>Counties with Multiple Centers</p></article>
-</section>
-  <section class="explorer">
-    <div class="section-heading">
-      <div><span class="eyebrow">Explore by county</span><h2>Find a Family Support Center</h2></div>
-      <div class="search-wrap">
-        <label for="countySearch">Search directory</label>
-        <input id="countySearch" type="search" placeholder="County, city, center, director…" autocomplete="off">
+
+  <!-- SUMMARY -->
+
+  <section class="stats" aria-label="Family Support Center directory summary">
+
+    <article class="stat-card">
+      <div class="stat-icon">WV</div>
+      <div>
+        <span id="servedCount">55</span>
+        <p>Counties Served</p>
       </div>
+    </article>
+
+    <article class="stat-card">
+      <div class="stat-icon location-icon">●</div>
+      <div>
+        <span id="locationCount">—</span>
+        <p>FSC Locations</p>
+      </div>
+    </article>
+
+    <article class="stat-card">
+      <div class="stat-icon coverage-icon">✓</div>
+      <div>
+        <span>Statewide</span>
+        <p>Family Support Coverage</p>
+      </div>
+    </article>
+
+  </section>
+
+
+  <!-- MAP EXPLORER -->
+
+  <section
+    id="explore"
+    class="explorer"
+  >
+
+    <div class="section-heading">
+
+      <div>
+        <span class="eyebrow">Explore by County</span>
+        <h2>Find Your Family Support Center</h2>
+
+        <p class="section-description">
+          Select a county on the map or use the county menu
+          to view local Family Support Center information.
+        </p>
+      </div>
+
+      <div class="county-selector-wrap">
+
+        <label for="countySelect">
+          Jump to a county
+        </label>
+
+        <select id="countySelect">
+          <option value="">
+            Select a county…
+          </option>
+        </select>
+
+      </div>
+
     </div>
+
 
     <div class="map-layout">
+
       <div class="map-card">
-        <div id="map" aria-label="Interactive map of West Virginia counties"></div>
-        <div class="legend" aria-label="Map legend">
-          <span><i class="swatch one"></i> 1 center</span>
-          <span><i class="swatch multi"></i> Multiple centers / service</span>
+
+        <div class="map-topbar">
+
+          <div>
+            <strong>West Virginia</strong>
+            <span>Family Support Center Coverage</span>
+          </div>
+
+          <button
+            id="resetMap"
+            class="map-reset"
+            type="button"
+          >
+            Reset Map
+          </button>
+
         </div>
-        <p class="map-source">County boundaries: West Virginia GIS Technical Center / WV public GIS service.</p>
+
+
+        <div
+          id="map"
+          aria-label="Interactive map of West Virginia counties"
+        ></div>
+
+
+        <div class="legend" aria-label="Map legend">
+
+          <span>
+            <i class="swatch one"></i>
+            Family Support Center
+          </span>
+
+          <span>
+            <i class="swatch multi"></i>
+            Multiple Centers / Services
+          </span>
+
+        </div>
+
+
+        <p class="map-source">
+          Select any county to view available Family Support Center information.
+        </p>
+
       </div>
 
-      <aside id="countyPanel" class="county-panel" aria-live="polite">
+
+      <aside
+        id="countyPanel"
+        class="county-panel"
+        aria-live="polite"
+      >
+
         <div class="empty-state">
+
           <div class="map-pin">WV</div>
-          <h3>Select a county</h3>
-          <p>Click a county on the map or choose a result below to see Family Support Center information.</p>
+
+          <span class="eyebrow">
+            Statewide Support
+          </span>
+
+          <h3>Select a County</h3>
+
+          <p>
+            Click a county on the map or select one from the menu
+            to view local Family Support Center information.
+          </p>
+
         </div>
+
       </aside>
+
     </div>
+
   </section>
 
-  <section class="directory-section">
-    <div class="section-heading">
-      <div><span class="eyebrow">Complete directory</span><h2>Family Support Centers</h2></div>
-      <button id="clearSearch" class="text-button" type="button">Clear search</button>
+
+  <!-- DIRECTORY -->
+
+  <section
+    id="directory"
+    class="directory-section"
+  >
+
+    <div class="section-heading directory-heading">
+
+      <div>
+
+        <span class="eyebrow">
+          Statewide Directory
+        </span>
+
+        <h2>Family Support Centers</h2>
+
+        <p class="section-description">
+          Search by county, city, center name, director,
+          phone number, or email.
+        </p>
+
+      </div>
+
+
+      <div class="search-wrap">
+
+        <label for="countySearch">
+          Search directory
+        </label>
+
+        <div class="search-box">
+
+          <span class="search-icon">⌕</span>
+
+          <input
+            id="countySearch"
+            type="search"
+            placeholder="Try Cabell, Huntington, or a center name…"
+            autocomplete="off"
+          >
+
+        </div>
+
+        <button
+          id="clearSearch"
+          class="text-button"
+          type="button"
+        >
+          Clear search
+        </button>
+
+      </div>
+
     </div>
-    <div id="directoryGrid" class="directory-grid"></div>
-    <p id="noResults" class="no-results" hidden>No centers match that search.</p>
+
+
+    <div
+      id="directoryGrid"
+      class="directory-grid"
+    ></div>
+
+
+    <p
+      id="noResults"
+      class="no-results"
+      hidden
+    >
+      No Family Support Centers match that search.
+    </p>
+
   </section>
+
 </main>
 
+
 <footer>
-  <p><strong>West Virginia Family Support Centers</strong> · Directory information reflects the supplied 2025–2026 FSC directory.</p>
-  <p class="future-note">Designed to support future county links and resident-volume data.</p>
+
+  <div class="footer-inner">
+
+    <div>
+
+      <strong>
+        West Virginia Family Support Centers
+      </strong>
+
+      <p>
+        Connecting West Virginia families with local support
+        and community resources.
+      </p>
+
+    </div>
+
+    <div class="footer-meta">
+      <span>55 Counties</span>
+      <span>Statewide Coverage</span>
+    </div>
+
+  </div>
+
 </footer>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+></script>
+
 <script src="app.js"></script>
+
 </body>
 </html>
