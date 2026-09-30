@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "2025-2026 Family Support Center Directory",
-    "countiesServed": 54,
+    "countiesServed": 55,
     "futureFields": [
       "residentVolume",
       "countyWebsite",
@@ -207,6 +207,17 @@
       "director": "Hannah Dodson",
       "email": "upwardfsc@lewiscountyfrn.org"
     },
+    {
+  "county": "Jackson",
+  "name": "Jackson County FSC",
+  "address": [
+    "504 1/2 South Church Street",
+    "Ripley, WV"
+  ],
+  "phone": "304-786-1003",
+  "director": "",
+  "email": ""
+},
     {
       "county": "Jefferson",
       "name": "Jefferson County FSC",
